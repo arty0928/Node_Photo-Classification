@@ -3,7 +3,6 @@ const fs = require('fs').promises;
 const fsg =  require('fs');
 const path = require('path');
 const currenPath = path.join(__dirname,'');
-//console.log(currenPath);
 
 function mv2Folder(fileType,value){
     // console.log(`currenPath: ${currenPath}`);
